@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Mandiri 11</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        display: flex;
+    }
+    .mouse {
+        padding: 300px;
+        text-align: center;
+        font-family: monospace;
+        font-size: 18px;
+        color: yellowgreen;
+    }
+    .keyboard {
+        padding: 300px 0 0 ;
+        font-family: monospace;
+        font-size: 18px;
+        color: darkblue;
+    }
+    .keyboard input {
+        width: 100%;
+        height: 30px;
+        color: darkblue;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .change {
+        padding: 300px;
+        text-align: center;
+        font-family: monospace;
+        font-size: 18px;
+        color: darkkhaki;
+    }
+    .change button{
+        width: 80%;
+        height: 40px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .change h2 {
+        margin: 20px;
+        color: aquamarine;
+        font-size: 30px;
+    }
+    .change select {
+        border-radius: 10px;
+        width: 40%;
+        text-align: center;
+        height: 30px;
+        font-size: 15px;
+    }
+</style>
+
+<body>
+    <div class="mouse">
+        <h1>Mouse Event</h1> <br>
+        <div id="myDiv"></div> 
+    </div> <br>
+    <div class="keyboard">
+        <h1>keyboard Event</h1> <br>
+        <input type="text" id="keyboard-input" >
+    </div> <br>
+    <div class="change">
+        <h1>Event Change</h1> <br> 
+        <button>Trigger change</button> 
+        <h2>Status</h2> 
+        <select>
+            <option value="Mojokerto">Daus</option>
+            <option value="Jombang">Rijal</option>
+            <option value="Nganjuk">Haziq</option>
+            <option value="Sukabumi">Asep</option>
+        </select>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
